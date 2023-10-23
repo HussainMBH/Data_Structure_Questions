@@ -6,6 +6,21 @@ public class RemoveDuplicates {
         for (int i = 0; i < k; i++) {
             System.out.print(arr[i] + " ");
         }
+        System.out.println();
+        System.out.println("Removing Duplicate Second Method");
+        int ar[] = {1,1,2,3,3,3,4,5,5};
+        int readd = -1;
+        for(int i=0; i<ar.length; i++){
+            if(ar[i] != -1){
+                for(int j=i+1; j<ar.length; j++){
+                    if(ar[i] == ar[j]){
+                        ar[j]=readd;
+                    }
+                }
+                System.out.print(ar[i] + " ");
+            }
+        }
+
     }
     static int removeDuplicates(int[] arr) {
         int i = 0;
