@@ -9,7 +9,7 @@ public class BinarySearch {
         int flag = 0;
         Scanner scn = new Scanner(System.in);
         int key = scn.nextInt(); // take key input from user
-        while(lb<=ub){
+        while(lb<=ub){ //binary search will run if that be sorted
             int mid  = (lb+ub)/2; // find the mid index
             if(ar[mid] == key){
                 System.out.println("key found at " + ar[mid]);
