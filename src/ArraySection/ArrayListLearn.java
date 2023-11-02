@@ -18,12 +18,18 @@ public class ArrayListLearn {
         ar.add(30);
         ar.add(40);
         ar.add(50);
+        ar.add(50);
         ar.add(2,80); //add element
         ar.add("Mohamed");
         ar.add("Bahir");
         ar.add("Hussain");
+        ArrayList a = new ArrayList();
+        a.add(100);
+        a.add(200);
+        a.add("Zain");
 
         ar.add(arr); // add another array into one array
+        a.addAll(ar);
 
 
         System.out.println(ar);
@@ -31,6 +37,7 @@ public class ArrayListLearn {
         System.out.println(ar);
         System.out.println(ar.remove(1));
         System.out.println(ar);
+        System.out.println(a);
 
 
 

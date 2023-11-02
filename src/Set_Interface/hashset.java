@@ -11,6 +11,7 @@ public class hashset {
         hs.add(4);
         hs.add(7);
         hs.add(8);
+        hs.add(10);
         System.out.println(hs);
     }
 }
