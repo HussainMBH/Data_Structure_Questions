@@ -35,6 +35,8 @@ public class ArrayListLearn {
         a.addAll(ar); //add all first a of arrays will add
         //a.add(0,ar);
         //ar.clear(); //Clear all arrays
+
+
         System.out.println(a);
         System.out.println("a array is empty? "+a.isEmpty());
         System.out.println(ar.get(1)); //check in that index what value have in there
