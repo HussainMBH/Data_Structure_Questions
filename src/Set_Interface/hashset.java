@@ -1,6 +1,7 @@
 /*
 it's a object store, we can't add duplicate element
-* */
+Insertion is not order maintain
+*/
 package Set_Interface;
 
 import java.util.HashSet;
