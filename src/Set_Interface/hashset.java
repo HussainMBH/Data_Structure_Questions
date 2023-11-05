@@ -1,3 +1,6 @@
+/*
+it's a object store, we can't add duplicate element
+* */
 package Set_Interface;
 
 import java.util.HashSet;
@@ -11,7 +14,7 @@ public class hashset {
         hs.add(4);
         hs.add(7);
         hs.add(8);
-        hs.add(10);
         System.out.println(hs);
+        System.out.println("Can add number 10 duplicate element? "+hs.add(10));//checking for can add duplicate element
     }
 }
