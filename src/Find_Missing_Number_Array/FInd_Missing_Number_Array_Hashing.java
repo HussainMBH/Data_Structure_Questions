@@ -20,10 +20,10 @@ public class FInd_Missing_Number_Array_Hashing {
     }
 
     public static void main(String args[]) {
-        int N = 5;
+        int l = 5;
         int a[] = {1, 2, 4, 5};
 
-        int ans = missingNumber(a, N);
+        int ans = missingNumber(a, l);
         System.out.println("The missing number is: " + ans);
     }
 }
